@@ -19,7 +19,7 @@ jobs:
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.5
         with:
-          BASE_BRANCH: main
+          BASE_BRANCH: master
           branch: gh-pages
           folder: build
           token: ${{ secrets.GITHUB_TOKEN }}
