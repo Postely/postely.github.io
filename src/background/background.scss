@@ -1,0 +1,75 @@
+.background {
+
+    $left-start-at: 620px;
+    $width: 90%;
+    $right-start-at: 660px;
+    $bar-height: 40px;
+    $margin: 10px;
+
+    @mixin topPosLeft($index){
+        top: $left-start-at + ($bar-height + $margin) * $index;
+    }
+
+    @mixin topPosRight($index){
+        top: $right-start-at + ($bar-height + $margin) * $index;
+    }
+
+    z-index: -1;
+    position: absolute;
+    inset: -410px 0 0;
+    transform: skewY(-11deg);
+    
+
+    * {
+        position: absolute;
+    }
+
+    .lefttop {
+        height: $bar-height;
+        background-color: var(--primary);
+        @include topPosLeft(0);
+        left: calc(50% - 700px);
+        right: calc($width);
+    }
+
+    .leftmiddle {
+        height: $bar-height;
+        background-color: var(--secondary);
+        @include topPosLeft(1);
+        left: calc(50% - 700px);
+        right: calc($width);
+    }
+
+    .leftbottom {
+        height: $bar-height;
+        background-color: var(--tertiary);
+        @include topPosLeft(2);
+        left: -10px;
+        right: calc($width);
+    }
+
+    .righttop {
+        height: $bar-height;
+        background-color: var(--primary);
+        @include topPosRight(0);
+        left: calc($width);
+        right: -10px;
+    }
+
+    .rightmiddle {
+        height: $bar-height;
+        background-color: var(--secondary);
+        @include topPosRight(1);
+        left: calc($width);
+        right: -10px;
+    }
+
+    .rightbottom {
+        height: $bar-height;
+        background-color: var(--tertiary);
+        @include topPosRight(2);
+        left: calc($width);
+        right: -10px;
+    }
+
+}

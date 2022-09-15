@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Patrick Hand';
+    src: url('./assets/fonts/PatrickHand-Regular.woff') format('woff'),
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('./assets/fonts/PatrickHand-Regular.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.font-patrick-hand {
+    font-family: 'Patrick Hand';
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('./assets/fonts/Quicksand-VariableFont_wght.woff') format('woff'),
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+        url('./assets/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+.font-quicksand {
+    font-family: 'Quicksand';
+}

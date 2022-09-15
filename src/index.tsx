@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './fonts.scss';
+import './colors.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import './custom.scss';
+import './theme.css';
+import './i18n';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
