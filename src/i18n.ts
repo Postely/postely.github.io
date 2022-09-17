@@ -11,7 +11,9 @@ const resources = {
       "subheader": "Get rid of those montly fees! Postely is free...forever!",
       "try": "Get started!",
       "how": "But how?",
-      "howDescription": "Postely uses the exiting social media scheduling APIs and the power of your own device to schedule your posts. Voilà!" 
+      "howDescription": "Postely uses the exiting social media scheduling APIs and the power of your own device to schedule your posts. Voilà!",
+      "language": "Language",
+      "soon": "Coming soon"
     }
   },
   fr: {
@@ -20,7 +22,9 @@ const resources = {
       "subheader": "Débarassez vous des paiements mensuels! Postely est gratuit...pour toujours!",
       "try": "Commençons",
       "how": "Mais comment?",
-      "howDescription": "Postely utilise les APIs existant des médias sociaux et le pouvoir de votre propre dispositif pour planifier vos publications. Voilà!"
+      "howDescription": "Postely utilise les APIs existant des médias sociaux et le pouvoir de votre propre dispositif pour planifier vos publications. Voilà!",
+      "language": "Langue",
+      "soon": "Bientôt disponible"
     }
   }
 };
@@ -38,4 +42,4 @@ i18n
     }
   });
 
-  export default i18n;
+export default i18n;
